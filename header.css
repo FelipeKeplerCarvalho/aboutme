@@ -1,0 +1,66 @@
+header{
+width: 100%;
+position: fixed;
+z-index: 99;
+top: 0px;
+left: 0px;
+background-color: #fff;
+}
+
+
+.headerinterno{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    max-width: var(--larguramax);
+    margin: auto;
+}
+
+header .checkbox {
+    display: none;
+  }
+
+  header .checkbox i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    cursor: pointer;
+  }
+  
+  header input {
+    display: none;
+  }
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--roxoclaro);
+    cursor: pointer;
+}
+
+.logo:hover{
+    color: var(--roxoescuro);
+}
+
+
+
+nav > ul  {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center; /*remover dps pra ver se faz diferença msm ou perguntar pra alguem o pq*/
+}
+
+nav > ul > li > a {
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    font-weight: 600;
+    color: var(--textdark);
+    transition: 0.5s;
+}
+
+ul li a:hover {
+    border-top-color: var(--mostarda) ;
+    border-bottom-color: var(--mostarda) ;
+    color: var(--mostarda);
+}

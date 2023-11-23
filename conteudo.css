@@ -1,0 +1,92 @@
+.main {
+    background-color: var(--textextralight);
+}
+
+.maincontainer{
+    min-height: 100vh;
+    max-width: var(--larguramax);
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding: 1rem;
+    gap: 4rem; /*remover pra ver se tem mt diferença*/
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.hello {
+    color: var(--textlight);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+}
+
+.title{
+    font-size: 2.5rem;
+    color: var(--textdark);
+    font-weight: 400;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+.title > span {
+    font-weight: 600;
+}
+
+.text{
+    color: var(--textlight);
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.buttons{
+    display:flex ;
+    gap: 1rem;
+}
+
+.buttons button{
+    border: 2px solid var(--roxoclaro);
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding: 1rem 2rem;
+}
+.bhire{
+    background-color: var(--roxoclaro);
+    color: white;
+}
+.bport{
+    background-color: white;
+    color: var(--roxoescuro);
+}
+.bport:hover{
+    background-color:var(--roxoescuro);
+    color: white;
+}
+
+.img{
+    display: grid;
+    place-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+.eu{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+
